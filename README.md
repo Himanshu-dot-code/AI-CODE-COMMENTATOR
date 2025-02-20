@@ -116,10 +116,12 @@ python main.py
 
 ## ✨ Contributors  
 
-leader - Hiten kashyap
+leader - **Hiten kashyap**
 👤 **Himanshu Negi** *( GitHub Profile Link)*
-gurleen singh
-Isha 
+
+**Gurleen singh**
+
+**Isha** 
 
 ---  
 
