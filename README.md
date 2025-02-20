@@ -118,7 +118,7 @@ python main.py
 
 leader - **Hiten kashyap**
 
-👤 **Himanshu Negi** *( GitHub Profile Link)*
+👤 **Himanshu Negi** *(https://github.com/Himanshu-dot-code)*
 
 **Gurleen singh**
 
