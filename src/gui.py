@@ -4,7 +4,20 @@ import streamlit as st
 import time
 
 # Add project root to Python path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+# Get the directory where the current script is located
+current_directory = os.path.dirname(__file__)
+
+# Move one level up to the parent directory
+parent_directory = os.path.join(current_directory, "..")
+
+# Convert the parent directory path to an absolute path
+absolute_parent_directory = os.path.abspath(parent_directory)
+
+# Add the absolute parent directory path to Python's module search path
+sys.path.append(absolute_parent_directory)
+
 
 from comment_generator import generate_comments
 
