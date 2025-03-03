@@ -14,10 +14,6 @@ st.set_page_config(page_title="AI Code Commenter", page_icon="📝", layout="cen
 st.title("📝 AI Code Commenter")
 st.write("Paste your Python code below, and Gemini AI will generate comments for you!")
 
-# Sidebar for additional options
-with st.sidebar:
-    st.subheader("⚙️ Options")
-    format_code = st.checkbox("Format Code Output")
 
 # Text area for user input
 code_input = st.text_area("Enter your Python code here:", height=300)
