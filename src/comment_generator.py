@@ -1,7 +1,7 @@
 import os
 import google.generativeai as genai
 import logging 
-from dotenv import load_dotenv
+from dotenv import load_dotenv 
 
 # Completely disable gRPC logging
 os.environ["GRPC_ENABLE_FORK_SUPPORT"] = "0"
