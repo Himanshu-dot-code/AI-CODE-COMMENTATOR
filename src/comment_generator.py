@@ -1,6 +1,6 @@
 import os
 import google.generativeai as genai
-import logging
+import logging 
 from dotenv import load_dotenv
 
 # Completely disable gRPC logging
@@ -17,6 +17,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 
 def generate_comments(code_snippet):
     """Uses Google Gemini AI to generate comments for Python code."""
-    model = genai.GenerativeModel("gemini-pro")
-    response = model.generate_content(f"Add comments to this Python code:\n\n{code_snippet}")
+    model = genai.GenerativeModel("gemini-1.5-pro")
+    response = model.generate_content(f"Analyze the following Python code and generate clear, beginner-friendly comments explaining each function, variable, and logic. Ensure the comments are concise and useful for developers.\n\n{code_snippet}")
     return response.text
+
