@@ -1,21 +1,22 @@
-def add(a, b):
-    return a + b
-
-def subtract(a, b):
-    return a - b
-
-class Calculator:
-    def multiply(self, x, y):
-        return x * y
+def calculate_factorial(number):
+    if number < 0:
+        return "Factorial is not defined for negative numbers."
+    elif number == 0 or number == 1:
+        return 1
     
-    def divide(self, x, y):
-        if y == 0:
-            return "Cannot divide by zero"
-        return x / y
+    factorial = 1
+    for i in range(2, number + 1):
+        factorial *= i
+    
+    return factorial
 
-print(add(5, 3))
-print(subtract(10, 4))
+def main():
+    try:
+        num = int(input("Enter a number to find its factorial: "))
+        result = calculate_factorial(num)
+        print(f"The factorial of {num} is: {result}")
+    except ValueError:
+        print("Invalid input. Please enter an integer.")
 
-calc = Calculator()
-print(calc.multiply(6, 7))
-print(calc.divide(8, 2))
+if __name__ == "__main__":
+    main()
