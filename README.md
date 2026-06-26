@@ -116,13 +116,9 @@ python main.py
 
 ## ✨ Contributors  
 
-leader - **Hiten kashyap**
-
 👤 **Himanshu Negi** *(https://github.com/Himanshu-dot-code)*
 
-**Gurleen singh**
-
-**Isha** 
+👤 **Isha** *(https://github.com/Isha0468)*
 
 ---  
 
